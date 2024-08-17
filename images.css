@@ -1,0 +1,72 @@
+/* Basic Reset */
+body, h1, h2, p, ul, li, form, label, input, button, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    padding: 50px;
+}
+
+/* Flexbox Gallery Container */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Image Container Styling */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+    display: block;
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover Effects on Images */
+.image-container:hover img {
+    transform: scale(1.1);
+    filter: brightness(0.7);
+}
+
+/* Caption Styling */
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect for Caption */
+.image-container:hover .caption {
+    transform: translateY(0);
+}
+
+/* Additional Effects */
+.image-container:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+.image-container img:hover {
+    cursor: pointer;
+}
