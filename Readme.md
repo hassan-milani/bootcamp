@@ -31,7 +31,7 @@ Before you begin, ensure you have the following installed:
    cd my-project
    npm init -y
    ```
-````
+
 
 2. **Install Tailwind CSS via npm:**
 
