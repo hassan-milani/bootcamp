@@ -1,4 +1,4 @@
-````markdown
+
 # Tailwind CSS Setup Guide
 
 This guide walks you through setting up Tailwind CSS in your project. Tailwind CSS is a utility-first CSS framework that allows for rapid UI development. Follow the steps below to integrate Tailwind CSS into your project.
